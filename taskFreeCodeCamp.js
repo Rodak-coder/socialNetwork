@@ -27,3 +27,6 @@ var wordBlanks = myAdjective +' '+ myNoun +' '+  myVerb +' '+ myAdverb;
 var myArray = ['I got', 5, 'on it'];
 
 var myArray = [[myArray]];
+
+var myArray = [50,60,70];
+var myData = myArray[0];

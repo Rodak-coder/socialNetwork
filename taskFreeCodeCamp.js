@@ -1,8 +1,10 @@
 console.log('Hello, World!');
-// Setup
+
 var firstLetterOfLastName = "";
 var lastName = "Lovelace";
 
-// Only change code below this line
-firstLetterOfLastName = lastName[0]; // Change this line
+firstLetterOfLastName = lastName[0]; 
 console.log(firstLetterOfLastName);
+
+var myStr = "Jello World";
+myStr = "Hello World"; 

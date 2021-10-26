@@ -17,3 +17,9 @@ var lastLetterOfLastName = lastName[lastName.length -1];
 
 var lastName = "Lovelace";
 var secondToLastLetterOfLastName = lastName[lastName.length -2];
+
+var myNoun = "dog";
+var myAdjective = "big";
+var myVerb = "ran";
+var myAdverb = "quickly";
+var wordBlanks = myAdjective +' '+ myNoun +' '+  myVerb +' '+ myAdverb; 

@@ -32,3 +32,7 @@ function expressionMatter(a, b, c) {
       return "Who ate the last cookie? It was the dog!";
     }
   };
+  
+  function century(year) {
+    return Math.ceil(year / 100);
+  }

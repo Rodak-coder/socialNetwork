@@ -40,3 +40,7 @@ function expressionMatter(a, b, c) {
   function check(a, x) {
     return a.includes(x);
    }
+
+   function reverseWords(str){
+    return str.split(' ').reverse().join(' '); 
+  }

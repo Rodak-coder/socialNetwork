@@ -6,3 +6,6 @@ function expressionMatter(a, b, c) {
     return Math.min(...args);
     }
   };
+  function digital_root(n) {
+    return (n - 1) % 9 + 1;
+  }

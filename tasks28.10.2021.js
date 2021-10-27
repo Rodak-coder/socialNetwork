@@ -36,3 +36,7 @@ function expressionMatter(a, b, c) {
   function century(year) {
     return Math.ceil(year / 100);
   }
+
+  function check(a, x) {
+    return a.includes(x);
+   }

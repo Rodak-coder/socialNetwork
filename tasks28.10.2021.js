@@ -1,7 +1,7 @@
 function expressionMatter(a, b, c) {
     return Math.max(a*b*c,a*b+c,a+b*c,a+b+c,(a+b)*c,a*(b+c));
   };
-  
+
   class SmallestIntegerFinder {
     findSmallestInt(args) {
     return Math.min(...args);
@@ -17,4 +17,8 @@ function expressionMatter(a, b, c) {
     return digital_root(n.toString().split('').reduce((a, b) => {
         return a + +b;
       },0));
-  }
+  };
+
+  function countSheeps(arrayOfSheeps) {
+    return arrayOfSheeps.filter(Boolean).length;
+  };

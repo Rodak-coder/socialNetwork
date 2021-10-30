@@ -51,3 +51,9 @@ function countSheeps(arrayOfSheep) {
     //let triangle = 180 - a -b;//
      return 180 - a - b;//Math.abc(triangle);//
    }
+
+   function arrayPlusArray(arr1, arr2) {
+    const add = (accumulator, a) => accumulator + a;
+  
+    return arr1.reduce(add,0) + arr2.reduce(add,0); //something went wrong
+  }

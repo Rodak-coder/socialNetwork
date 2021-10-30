@@ -26,3 +26,7 @@ function countSheeps(arrayOfSheep) {
   /*function usdcny(usd) {
     return (usd * 6.75).toFixed(2) + ' ' + 'Chinese Yuan';
   } */
+
+  function countSheeps(arrayOfSheeps) {
+    return arrayOfSheeps.filter(Boolean).length;
+  }

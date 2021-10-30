@@ -12,3 +12,9 @@ function countSheeps(arrayOfSheep) {
   function digital_root(n) {
     return (n - 1) % 9 + 1;
   }
+
+  class SmallestIntegerFinder {
+    findSmallestInt(args) {
+    return Math.min(...args);
+    }
+  }

@@ -18,3 +18,8 @@ function countSheeps(arrayOfSheep) {
     return Math.min(...args);
     }
   }
+
+  function usdcny(usd) {
+    let cny = 6.75 * usd;
+    return cny.toFixed([2]) + ' ' + 'Chinese Yuan';
+  }

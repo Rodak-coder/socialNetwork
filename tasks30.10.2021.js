@@ -57,3 +57,7 @@ function countSheeps(arrayOfSheep) {
   
     return arr1.reduce(add,0) + arr2.reduce(add,0); //something went wrong
   }
+
+  function arrayPlusArray(arr1, arr2) {
+    return arr1.concat(arr2).reduce((acc, cur) => acc + cur);
+  }

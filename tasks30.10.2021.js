@@ -75,3 +75,9 @@ var greet_abe = function() {
     var name = 'Ben';
     return "Hello, " + name + '!';
   };
+
+  const hero = (bullets, dragons) => {
+    if((bullets / 2) >= dragons){
+      return true;
+    } return false;
+   }

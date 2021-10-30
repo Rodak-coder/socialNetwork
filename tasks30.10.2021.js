@@ -46,3 +46,8 @@ function countSheeps(arrayOfSheep) {
     return Number(Math.pow(2 * A / 3.1416, 2).toFixed(2))
   
   }
+
+  function otherAngle(a, b) {
+    //let triangle = 180 - a -b;//
+     return 180 - a - b;//Math.abc(triangle);//
+   }

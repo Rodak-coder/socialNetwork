@@ -41,3 +41,8 @@ function countSheeps(arrayOfSheep) {
   function lovefunc(flower1, flower2){
     return flower1 % 2 !==  flower2 % 2;
  }
+
+ function squareArea(A){
+    return Number(Math.pow(2 * A / 3.1416, 2).toFixed(2))
+  
+  }

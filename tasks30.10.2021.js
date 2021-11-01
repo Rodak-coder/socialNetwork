@@ -95,3 +95,5 @@ var greet_abe = function() {
      }
      return sum;
    };
+
+   const summation = (num) => num * (num + 1) / 2;

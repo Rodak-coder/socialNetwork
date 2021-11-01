@@ -152,3 +152,7 @@ function removeExclamationMarks(s) {
   function doubleInteger(i) {
     return i * 2;
   }
+
+  function greet (name, owner) {
+    return name == owner ? 'Hello boss' : 'Hello guest';
+  }

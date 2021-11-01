@@ -97,3 +97,11 @@ var greet_abe = function() {
    };
 
    const summation = (num) => num * (num + 1) / 2;
+
+   function findShort(s){
+    let words = s.split(' ');
+    let shortest = words.reduce((shortestWord,currentWord) => {
+      return shortestWord.length < currentWord.length ? shortestWord : currentWord 
+    }, words[0]);
+    return shortest.length;
+  }

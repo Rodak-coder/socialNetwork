@@ -113,3 +113,7 @@ var greet_abe = function() {
     
     return url.split('.')[0];
   }
+
+  function repeatStr (n, s) {
+    return s.repeat(n);
+  }

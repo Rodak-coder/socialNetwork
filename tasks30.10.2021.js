@@ -116,4 +116,12 @@ var greet_abe = function() {
 
   function repeatStr (n, s) {
     return s.repeat(n);
+
+    function repeatStr (n, s) {
+        let str = '';
+        for(i = 0; i < n; i++){
+          str += s;
+        }
+        return str
+      }
   }

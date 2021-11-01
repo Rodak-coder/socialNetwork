@@ -135,6 +135,7 @@ var greet_abe = function() {
       return "Hello, my love!";
   } return "Hello, " + name + "!";
   };
+  
   var min = function(list){
     
     return Math.min.apply(0, list);
@@ -143,3 +144,7 @@ var greet_abe = function() {
 var max = function(list){
     return Math.max.apply(0, list);
 }
+
+function removeExclamationMarks(s) {
+    return s.split('!').join('');
+  }

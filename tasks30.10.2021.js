@@ -160,3 +160,7 @@ function removeExclamationMarks(s) {
   function pillars(num_pill, dist, width) {
     return num_pill <= 1 ? 0 : (num_pill - 1) * dist * 100 + (num_pill - 2) * width;
   }
+
+  function iceBrickVolume(radius, bottleLength, rimLength) {
+    return (bottleLength - rimLength) * radius * 2 * radius;
+   }
